@@ -4,10 +4,10 @@ import java.io.*;
 import java.util.Scanner;
 
 public class FileManager {
-    String filename;
-    String way;
-    final static String name = "Укажите файл";
-    final static String nameOfWay = "Укажите путь";
+   private String filename;
+   private String way;
+   final static String name = "Укажите файл";
+   final static String nameOfWay = "Укажите путь";
 
     public FileManager() {
     }
